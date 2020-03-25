@@ -1,0 +1,19 @@
+{
+  "name": "acnh-web-scraper",
+  "version": "1.0.0",
+  "description": "Web Scraper used to gather the ACNH data for the ACNH Ultimate Guide application",
+  "main": "index.js",
+  "scripts": {
+    "fishes": "node src/fishes.js",
+    "convert-fishes": "node src/convert-fishes.js",
+    "verify-fishes": "node src/verify-fishes.js",
+    "insects": "node src/insects.js",
+    "convert-insects": "node src/convert-insects.js",
+    "verify-insects": "node src/verify-insects.js"
+  },
+  "author": "Samy Ouyahia",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
+}

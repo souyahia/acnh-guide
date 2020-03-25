@@ -1,0 +1,7 @@
+{
+  "name": "acnh-guide-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

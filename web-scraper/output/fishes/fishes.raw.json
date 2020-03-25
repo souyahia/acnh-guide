@@ -1,0 +1,804 @@
+{
+  "data": [
+    {
+      "name": "Anchois",
+      "sprite": "./french-fish_files/Anchois.png",
+      "frequency": "rare",
+      "months": "Toute l'année",
+      "hours": "4h - 21h",
+      "place": "Océan",
+      "price": "200",
+      "size": "Petite"
+    },
+    {
+      "name": "Bar",
+      "sprite": "./french-fish_files/Bar.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Rivière",
+      "price": "400",
+      "size": "Grande"
+    },
+    {
+      "name": "Bar commun",
+      "sprite": "./french-fish_files/Bar commun.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "400",
+      "size": "Très grande"
+    },
+    {
+      "name": "Bouvière",
+      "sprite": "./french-fish_files/Bouvière.png",
+      "frequency": "Commun",
+      "months": "Novembre - mars",
+      "hours": "Toute la journée",
+      "place": "Rivière",
+      "price": "900",
+      "size": "Minuscule"
+    },
+    {
+      "name": "Calmar",
+      "sprite": "./french-fish_files/Calmar.png",
+      "frequency": "rare",
+      "months": "Décembre - août",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "500",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Carassin",
+      "sprite": "./french-fish_files/Carassin.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Rivière",
+      "price": "160",
+      "size": "Petite"
+    },
+    {
+      "name": "Cardeau",
+      "sprite": "./french-fish_files/Cardeau.png",
+      "frequency": "rare",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "800",
+      "size": "Grande"
+    },
+    {
+      "name": "Carpe",
+      "sprite": "./french-fish_files/Carpe.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Étang",
+      "price": "300",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Carpe koï",
+      "sprite": "./french-fish_files/Carpe koï.png",
+      "frequency": "rare",
+      "months": "Toute l'année",
+      "hours": "16h - 9h",
+      "place": "Étang",
+      "price": "4000",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Chinchard",
+      "sprite": "./french-fish_files/Chinchard.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "150",
+      "size": "Petite"
+    },
+    {
+      "name": "Clione",
+      "sprite": "./french-fish_files/Clione.png",
+      "frequency": "Commun",
+      "months": "Décembre - mars",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "1000",
+      "size": "Minuscule"
+    },
+    {
+      "name": "Cœlacanthe",
+      "sprite": "./french-fish_files/Cœlacanthe.png",
+      "frequency": "très rare",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Océan (pluie/neige)",
+      "price": "15000",
+      "size": "Énorme"
+    },
+    {
+      "name": "Dai yu",
+      "sprite": "./french-fish_files/Dai yu.png",
+      "frequency": "très rare",
+      "months": "Décembre - mars",
+      "hours": "16h - 9h",
+      "place": "Rivière (falaise)",
+      "price": "15000",
+      "size": "Grande"
+    },
+    {
+      "name": "Esturgeon",
+      "sprite": "./french-fish_files/Esturgeon.png",
+      "frequency": "très rare",
+      "months": "Septembre - mars",
+      "hours": "Toute la journée",
+      "place": "Embouchure de rivière",
+      "price": "10000",
+      "size": "Très grande"
+    },
+    {
+      "name": "Gobie d'eau douce",
+      "sprite": "./french-fish_files/Gobie d'eau douce.png",
+      "frequency": "rare",
+      "months": "Toute l'année",
+      "hours": "16h - 9h",
+      "place": "Rivière",
+      "price": "400",
+      "size": "Petite"
+    },
+    {
+      "name": "Limande",
+      "sprite": "./french-fish_files/Limande.png",
+      "frequency": "Commun",
+      "months": "Octobre - avril",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "300",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Loche d'étang",
+      "sprite": "./french-fish_files/Loche d'étang.png",
+      "frequency": "Commun",
+      "months": "Mars - mai",
+      "hours": "Toute la journée",
+      "place": "Rivière",
+      "price": "400",
+      "size": "Petite/moyenne"
+    },
+    {
+      "name": "Marlin bleu",
+      "sprite": "./french-fish_files/Marlin bleu.png",
+      "frequency": "très rare",
+      "months": "Juillet - septembre, novembre - avril",
+      "hours": "Toute la journée",
+      "place": "Océan (ponton)",
+      "price": "10000",
+      "size": "Énorme"
+    },
+    {
+      "name": "Omble",
+      "sprite": "./french-fish_files/Omble.png",
+      "frequency": "rare",
+      "months": "Mars - juin, septembre - novembre",
+      "hours": "16h - 9h",
+      "place": "Rivière (falaise)",
+      "price": "3800",
+      "size": "Petite/moyenne"
+    },
+    {
+      "name": "Perche jaune",
+      "sprite": "./french-fish_files/Perche jaune.png",
+      "frequency": "Commun",
+      "months": "Octobre - mars",
+      "hours": "Toute la journée",
+      "place": "Rivière",
+      "price": "300",
+      "size": "Petite/moyenne"
+    },
+    {
+      "name": "Poisson lanterne",
+      "sprite": "./french-fish_files/Poisson lanterne.png",
+      "frequency": "rare",
+      "months": "Novembre - mars",
+      "hours": "16h - 9h",
+      "place": "Océan",
+      "price": "2500",
+      "size": "Grande"
+    },
+    {
+      "name": "Poisson rouge",
+      "sprite": "./french-fish_files/Poisson rouge.png",
+      "frequency": "très rare",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Étang",
+      "price": "1300",
+      "size": "Minuscule"
+    },
+    {
+      "name": "Poisson-ruban",
+      "sprite": "./french-fish_files/Poisson-ruban.png",
+      "frequency": "très rare",
+      "months": "Décembre - mai",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "9000",
+      "size": "Énorme"
+    },
+    {
+      "name": "Saumon masou",
+      "sprite": "./french-fish_files/Saumon masou.png",
+      "frequency": "Commun",
+      "months": "Mars - juin, septembre - novembre",
+      "hours": "16h - 9h",
+      "place": "Rivière (falaise)",
+      "price": "1000",
+      "size": "Petite/moyenne"
+    },
+    {
+      "name": "Scarus",
+      "sprite": "./french-fish_files/Scarus.png",
+      "frequency": "rare",
+      "months": "Mars - novembre",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "5000",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Têtard",
+      "sprite": "./french-fish_files/Têtard.png",
+      "frequency": "rare",
+      "months": "Mars - juillet",
+      "hours": "Toute la journée",
+      "place": "Étang",
+      "price": "100",
+      "size": "Minuscule"
+    },
+    {
+      "name": "Thon",
+      "sprite": "./french-fish_files/Thon.png",
+      "frequency": "très rare",
+      "months": "Novembre - avril",
+      "hours": "Toute la journée",
+      "place": "Océan (ponton)",
+      "price": "7000",
+      "size": "Énorme"
+    },
+    {
+      "name": "Truite dorée",
+      "sprite": "./french-fish_files/Truite dorée.png",
+      "frequency": "très rare",
+      "months": "Mars - mai, septembre - novembre",
+      "hours": "16h - 9h",
+      "place": "Rivière (falaise)",
+      "price": "15000",
+      "size": "Petite"
+    },
+    {
+      "name": "Vandoise",
+      "sprite": "./french-fish_files/Vandoise.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "16h - 9h",
+      "place": "Rivière",
+      "price": "240",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Vivaneau",
+      "sprite": "./french-fish_files/Vivaneau.png",
+      "frequency": "rare",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "3000",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Chevaine",
+      "sprite": "./french-fish_files/Chevaine.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "9h - 16h",
+      "place": "Rivière",
+      "price": "200",
+      "size": "Minuscule"
+    },
+    {
+      "name": "Crapet",
+      "sprite": "./french-fish_files/Crapet.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "9h - 16h",
+      "place": "Rivière",
+      "price": "180",
+      "size": "Petite"
+    },
+    {
+      "name": "Cyprin doré",
+      "sprite": "./french-fish_files/Cyprin doré.png",
+      "frequency": "Très rare",
+      "months": "Toute l'année",
+      "hours": "9h - 16h",
+      "place": "Étang",
+      "price": "1300",
+      "size": "Minuscule"
+    },
+    {
+      "name": "Macropinna",
+      "sprite": "./french-fish_files/Macropinna.png",
+      "frequency": "Très rare",
+      "months": "Toute l'année",
+      "hours": "21h - 4h",
+      "place": "Océan",
+      "price": "15000",
+      "size": "Petite"
+    },
+    {
+      "name": "Ranchu",
+      "sprite": "./french-fish_files/Ranchu.png",
+      "frequency": "Très rare",
+      "months": "Toute l'année",
+      "hours": "9h - 16h",
+      "place": "Étang",
+      "price": "4500",
+      "size": "Petite"
+    },
+    {
+      "name": "Arapaïma",
+      "sprite": "./french-fish_files/Arapaïma.png",
+      "frequency": "Très rare",
+      "months": "Juillet - septembre",
+      "hours": "16h - 9h",
+      "place": "Rivière",
+      "price": "?",
+      "size": "Énorme"
+    },
+    {
+      "name": "Arowana",
+      "sprite": "./french-fish_files/Arowana.png",
+      "frequency": "Très rare",
+      "months": "Juillet - septembre",
+      "hours": "16h - 9h",
+      "place": "Rivière",
+      "price": "10000",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Ayu",
+      "sprite": "./french-fish_files/Ayu.png",
+      "frequency": "Commun",
+      "months": "Juillet - septembre",
+      "hours": "Toute la journée",
+      "place": "Rivière",
+      "price": "900",
+      "size": "Petite/moyenne"
+    },
+    {
+      "name": "Bichir",
+      "sprite": "./french-fish_files/Bichir.png",
+      "frequency": "Rare",
+      "months": "Juin - septembre",
+      "hours": "21h - 4h",
+      "place": "Rivière",
+      "price": "?",
+      "size": "Grande"
+    },
+    {
+      "name": "Brochet",
+      "sprite": "./french-fish_files/Brochet.png",
+      "frequency": "Rare",
+      "months": "Septembre - décembre",
+      "hours": "Toute la journée",
+      "place": "Rivière",
+      "price": "1800",
+      "size": "Moyenne/grande"
+    },
+    {
+      "name": "Carangue grosse tête",
+      "sprite": "./french-fish_files/Carangue grosse tête.png",
+      "frequency": "Rare",
+      "months": "Mai - octobre",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "?",
+      "size": "Énorme"
+    },
+    {
+      "name": "Combattant",
+      "sprite": "./french-fish_files/Combattant.png",
+      "frequency": "Rare",
+      "months": "Mai - octobre",
+      "hours": "9h - 16h",
+      "place": "Rivière",
+      "price": "2500",
+      "size": "Petite"
+    },
+    {
+      "name": "Coryphène",
+      "sprite": "./french-fish_files/Coryphène.png",
+      "frequency": "Rare",
+      "months": "Mai - octobre",
+      "hours": "Toute la journée",
+      "place": "Rivière (falaise)",
+      "price": "?",
+      "size": "Très grande"
+    },
+    {
+      "name": "Crabe chinois",
+      "sprite": "./french-fish_files/Crabe chinois.png",
+      "frequency": "Rare",
+      "months": "Septembre - novembre",
+      "hours": "16h - 9h",
+      "place": "Rivière",
+      "price": "2000",
+      "size": "Petite"
+    },
+    {
+      "name": "Dorade",
+      "sprite": "./french-fish_files/Dorade.png",
+      "frequency": "Très rare",
+      "months": "Juin - septembre",
+      "hours": "4h - 21h",
+      "place": "Rivière",
+      "price": "15000",
+      "size": "Très grande"
+    },
+    {
+      "name": "Ecrevisse",
+      "sprite": "./french-fish_files/Ecrevisse.png",
+      "frequency": "Commun",
+      "months": "Avril - septembre",
+      "hours": "Toute la journée",
+      "place": "Étang",
+      "price": "200",
+      "size": "Petite"
+    },
+    {
+      "name": "Eperlan",
+      "sprite": "./french-fish_files/Eperlan.png",
+      "frequency": "Commun",
+      "months": "Décembre - février",
+      "hours": "Toute la journée",
+      "place": "Rivière",
+      "price": "320",
+      "size": "Petite"
+    },
+    {
+      "name": "Fondule barré",
+      "sprite": "./french-fish_files/Fondule barré.png",
+      "frequency": "Commun",
+      "months": "Avril - août",
+      "hours": "Toute la journée",
+      "place": "Étang",
+      "price": "?",
+      "size": "Minuscule"
+    },
+    {
+      "name": "Gar",
+      "sprite": "./french-fish_files/Gar.png",
+      "frequency": "Très rare",
+      "months": "Juin - septembre",
+      "hours": "16h - 9h",
+      "place": "Étang",
+      "price": "?",
+      "size": "Énorme"
+    },
+    {
+      "name": "Grand requin blanc",
+      "sprite": "./french-fish_files/Grand requin blanc.png",
+      "frequency": "Très rare",
+      "months": "Juin - septembre",
+      "hours": "16h - 9h",
+      "place": "Océan",
+      "price": "15000",
+      "size": "Énorme (aileron)"
+    },
+    {
+      "name": "Grenouille",
+      "sprite": "./french-fish_files/Grenouille.png",
+      "frequency": "Commun",
+      "months": "Mai - août",
+      "hours": "Toute la journée",
+      "place": "Étang",
+      "price": "?",
+      "size": "Petite"
+    },
+    {
+      "name": "Guppy",
+      "sprite": "./french-fish_files/Guppy.png",
+      "frequency": "Commun",
+      "months": "Avril - novembre",
+      "hours": "9h - 16h",
+      "place": "Rivière",
+      "price": "1300",
+      "size": "Minuscule"
+    },
+    {
+      "name": "Hippocampe",
+      "sprite": "./french-fish_files/Hippocampe.png",
+      "frequency": "Commun",
+      "months": "Avril - novembre",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "1100",
+      "size": "Minuscule"
+    },
+    {
+      "name": "Lune de mer",
+      "sprite": "./french-fish_files/Lune de mer.png",
+      "frequency": "Rare",
+      "months": "Juillet - septembre",
+      "hours": "4h - 21h",
+      "place": "Océan",
+      "price": "4000",
+      "size": "Énorme (aileron)"
+    },
+    {
+      "name": "Murène",
+      "sprite": "./french-fish_files/Murène.png",
+      "frequency": "Rare",
+      "months": "Août - octobre",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "2000",
+      "size": "Très grande"
+    },
+    {
+      "name": "Murène ruban bleue",
+      "sprite": "./french-fish_files/Murène ruban bleue.png",
+      "frequency": "Commun",
+      "months": "Juin - octobre",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "600",
+      "size": "Fine"
+    },
+    {
+      "name": "Napoléon",
+      "sprite": "./french-fish_files/Napoléon.png",
+      "frequency": "Très rare",
+      "months": "Juillet - août",
+      "hours": "4h - 21h",
+      "place": "Océan",
+      "price": "?",
+      "size": "Énorme"
+    },
+    {
+      "name": "Néon bleu",
+      "sprite": "./french-fish_files/Néon bleu.png",
+      "frequency": "Commun",
+      "months": "Avril - novembre",
+      "hours": "9h - 16h",
+      "place": "Rivière",
+      "price": "500",
+      "size": "Minuscule"
+    },
+    {
+      "name": "Piranha",
+      "sprite": "./french-fish_files/Piranha.png",
+      "frequency": "Rare",
+      "months": "Juin - septembre",
+      "hours": "9h - 16h, 21h - 4h",
+      "place": "Rivière",
+      "price": "2500",
+      "size": "Petite"
+    },
+    {
+      "name": "Poisson arc-en-ciel",
+      "sprite": "./french-fish_files/Poisson arc-en-ciel.png",
+      "frequency": "Commun",
+      "months": "Mai - octobre",
+      "hours": "9h - 16h",
+      "place": "Rivière",
+      "price": "800",
+      "size": "Minuscule"
+    },
+    {
+      "name": "Poisson chirurgien",
+      "sprite": "./french-fish_files/Poisson chirurgien.png",
+      "frequency": "Commun",
+      "months": "Avril - septembre",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "1000",
+      "size": "Petite"
+    },
+    {
+      "name": "Poisson docteur",
+      "sprite": "./french-fish_files/Poisson docteur.png",
+      "frequency": "Commun",
+      "months": "Mai - septembre",
+      "hours": "9h - 16h",
+      "place": "Rivière",
+      "price": "?",
+      "size": "Petite"
+    },
+    {
+      "name": "Poisson-ange",
+      "sprite": "./french-fish_files/Poisson-ange.png",
+      "frequency": "Rare",
+      "months": "Mai - octobre",
+      "hours": "16h - 9h",
+      "place": "Rivière",
+      "price": "3000",
+      "size": "Petite"
+    },
+    {
+      "name": "Poisson-ballon",
+      "sprite": "./french-fish_files/Poisson-ballon.png",
+      "frequency": "Rare",
+      "months": "Novembre - février",
+      "hours": "21h - 4h",
+      "place": "Océan",
+      "price": "5000",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Poisson-clown",
+      "sprite": "./french-fish_files/Poisson-clown.png",
+      "frequency": "Commun",
+      "months": "Avril - septembre",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "650",
+      "size": "Minuscule"
+    },
+    {
+      "name": "Poisson-papillon",
+      "sprite": "./french-fish_files/Poisson-papillon.png",
+      "frequency": "Commun",
+      "months": "Avril - septembre",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "1000",
+      "size": "Petite"
+    },
+    {
+      "name": "Poisson-porc-épic",
+      "sprite": "./french-fish_files/Poisson-porc-épic.png",
+      "frequency": "Commun",
+      "months": "Juillet - septembre",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "250",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Poisson-scorpion",
+      "sprite": "./french-fish_files/Poisson-scorpion.png",
+      "frequency": "Commun",
+      "months": "Avril - novembre",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "500",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Raie",
+      "sprite": "./french-fish_files/Raie.png",
+      "frequency": "Rare",
+      "months": "Août - novembre",
+      "hours": "4h - 21h",
+      "place": "Océan",
+      "price": "3000",
+      "size": "Énorme"
+    },
+    {
+      "name": "Rémora rayé",
+      "sprite": "./french-fish_files/Rémora rayé.png",
+      "frequency": "Rare",
+      "months": "Juin - septembre",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "1500",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Requin marteau",
+      "sprite": "./french-fish_files/Requin marteau.png",
+      "frequency": "Très rare",
+      "months": "Juin - septembre",
+      "hours": "16h - 9h",
+      "place": "Océan",
+      "price": "8000",
+      "size": "Énorme (aileron)"
+    },
+    {
+      "name": "Requin scie",
+      "sprite": "./french-fish_files/Requin scie.png",
+      "frequency": "Très rare",
+      "months": "Juin - septembre",
+      "hours": "16h - 9h",
+      "place": "Océan",
+      "price": "12000",
+      "size": "Énorme (aileron)"
+    },
+    {
+      "name": "Requin-baleine",
+      "sprite": "./french-fish_files/Requin-baleine.png",
+      "frequency": "Très rare",
+      "months": "Juin - septembre",
+      "hours": "Toute la journée",
+      "place": "Océan",
+      "price": "13000",
+      "size": "Énorme (aileron)"
+    },
+    {
+      "name": "Saumon",
+      "sprite": "./french-fish_files/Saumon.png",
+      "frequency": "Commun",
+      "months": "Septembre",
+      "hours": "Toute la journée",
+      "place": "Embouchure de rivière",
+      "price": "700",
+      "size": "Grande"
+    },
+    {
+      "name": "Saumon roi",
+      "sprite": "./french-fish_files/Saumon roi.png",
+      "frequency": "Rare",
+      "months": "Septembre",
+      "hours": "Toute la journée",
+      "place": "Embouchure de rivière",
+      "price": "10000",
+      "size": "Énorme"
+    },
+    {
+      "name": "Silure",
+      "sprite": "./french-fish_files/Silure.png",
+      "frequency": "Commun",
+      "months": "Mai - octobre",
+      "hours": "16h - 9h",
+      "place": "Étang",
+      "price": "800",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Tête-de-serpent",
+      "sprite": "./french-fish_files/Tête-de-serpent.png",
+      "frequency": "Rare",
+      "months": "Juin - août",
+      "hours": "9h - 16h",
+      "place": "Étang",
+      "price": "?",
+      "size": "Grande"
+    },
+    {
+      "name": "Tilapia",
+      "sprite": "./french-fish_files/Tilapia.png",
+      "frequency": "Commun",
+      "months": "Juin - octobre",
+      "hours": "Toute la journée",
+      "place": "Rivière",
+      "price": "800",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Tortue serpentine",
+      "sprite": "./french-fish_files/Tortue serpentine.png",
+      "frequency": "Rare",
+      "months": "Avril - octobre",
+      "hours": "21h - 4h",
+      "place": "Rivière",
+      "price": "5000",
+      "size": "Moyenne"
+    },
+    {
+      "name": "Tortue trionyx",
+      "sprite": "./french-fish_files/Tortue trionyx.png",
+      "frequency": "Rare",
+      "months": "Août - septembre",
+      "hours": "16h - 9h",
+      "place": "Rivière",
+      "price": "3750",
+      "size": "Moyenne"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "acnh-guide-app",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {},
+  "linuxAndroidStudioPath": "/home/souyahia/AndroidStudio/bin/studio.sh"
+}
