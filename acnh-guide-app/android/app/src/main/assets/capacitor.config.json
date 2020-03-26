@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "acnh-guide-app",
+  "appId": "sostudio.anchguide",
+  "appName": "ACNH Simple Guide",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",

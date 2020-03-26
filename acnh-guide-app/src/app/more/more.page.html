@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>À propos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <p>
+      ACNH Simple Guide est une application Open Source, dont le code complet est disponible sur GitHub à l'adresse suivante : <a href="https://github.com/souyahia/acnh-guide">https://github.com/souyahia/acnh-guide</a>.
+    </p>
+    <p>
+      Les données de cette application ont été récupérées depuis <a href="https://www.animalcrossing-online.com/">https://www.animalcrossing-online.com/</a> à l'aide d'un webscraper développé en NodeJs (Request / Cheerio). L'application en elle même est basée sur Ionic 5 et Capacitor.
+    </p>
+    <p>
+      <strong>
+        Des données sont incorrectes ? Tu as trouvé un bug ? Tu souhaites me soumettre une suggestion ? N'hésites pas à m'envoyer un mail à <a href="mailto:acnh.simple.guide@gmail.com">acnh.simple.guide@gmail.com</a>
+      </strong>
+    </p>
+    <p>
+      Tu aimes l'application ? Tu souhaite soutenir mon travail et me faire un don ? Clique sur le bouton ci-dessous !
+    </p>
+    <ion-row class="center-content">
+      <form ngNoForm action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="ALSAQKLERMHKN" />
+        <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Bouton Faites un don avec PayPal" />
+        <img alt="" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1" />
+      </form>
+    </ion-row>
+  </div>
+</ion-content>

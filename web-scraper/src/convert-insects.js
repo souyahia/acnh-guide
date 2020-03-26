@@ -66,17 +66,23 @@ function convertMonths(insect) {
   if (insect.months == 'Toute l\'année') {
     for (let i=0; i<12; i++) { months[i] = true; }
   } else {
-    let reg = new RegExp('([A-zÀ-ú]+) - ([A-zÀ-ú]+)', 'i');
+    let reg = new RegExp('^([A-zÀ-ú]+) - ([A-zÀ-ú]+)$', 'i');
     res = insect.months.match(reg);
     if (res != null) { applyMonths(months, res[1], res[2]); }
     else {
-      reg = new RegExp('([A-zÀ-ú]+) - ([A-zÀ-ú]+), ([A-zÀ-ú]+) - ([A-zÀ-ú]+)', 'i');
+      reg = new RegExp('^([A-zÀ-ú]+) - ([A-zÀ-ú]+), ([A-zÀ-ú]+) - ([A-zÀ-ú]+)$', 'i');
       res = insect.months.match(reg);
       if (res != null) {
         applyMonths(months, res[1], res[2]);
         applyMonths(months, res[3], res[4]);
       } else if (insect.months == 'Juin') {
         months[5] = true;
+      } else if (insect.months == 'Mars - juin, octobre') {
+        months[2] = true;
+        months[3] = true;
+        months[4] = true;
+        months[5] = true;
+        months[7] = true;
       } else {
         insect.months = 'ERROR';
         return;
@@ -104,11 +110,11 @@ function convertHours(insect) {
   if (insect.hours == 'Toute la journée') {
     for (let i=0; i<24; i++) { hours[i] = true; }
   } else {
-    let reg = new RegExp('(\\d+)h - (\\d+)h', 'i');
+    let reg = new RegExp('^(\\d+)h - (\\d+)h$', 'i');
     res = insect.hours.match(reg);
     if (res != null) { applyHours(hours, res[1], res[2]); }
     else {
-      reg = new RegExp('(\\d+)h - (\\d+)h, (\\d+)h - (\\d+)h', 'i');
+      reg = new RegExp('^(\\d+)h - (\\d+)h, (\\d+)h - (\\d+)h$', 'i');
       res = insect.hours.match(reg);
       if (res != null) {
         applyHours(hours, res[1], res[2]);

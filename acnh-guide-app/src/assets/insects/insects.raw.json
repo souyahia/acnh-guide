@@ -1,0 +1,742 @@
+{
+  "data": [
+    {
+      "name": "Araignée",
+      "sprite": "./french-insects_files/Araignée.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "19h - 8h",
+      "place": "Arbres",
+      "price": "600"
+    },
+    {
+      "name": "Bernard-l'ermite",
+      "sprite": "./french-insects_files/Bernard-l'ermite.png",
+      "frequency": "rare",
+      "months": "Toute l'année",
+      "hours": "19h - 8h",
+      "place": "Plage",
+      "price": "1000"
+    },
+    {
+      "name": "Capricorne des agrumes",
+      "sprite": "./french-insects_files/Capricorne des agrumes.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Souches d'arbres",
+      "price": "350"
+    },
+    {
+      "name": "Catacanthus",
+      "sprite": "./french-insects_files/Catacanthus.png",
+      "frequency": "Commun",
+      "months": "Mars - octobre",
+      "hours": "19h - 8h",
+      "place": "Fleurs",
+      "price": "1000"
+    },
+    {
+      "name": "Cicindèle",
+      "sprite": "./french-insects_files/Cicindèle.png",
+      "frequency": "rare",
+      "months": "Février - octobre",
+      "hours": "Toute la journée",
+      "place": "Sol",
+      "price": "1500"
+    },
+    {
+      "name": "\n\t\t\t\t\t\t\tEscargot\n\t\t\t\t\t\t",
+      "sprite": "./french-insects_files/Escargot.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Rochers (pluie)",
+      "price": "250"
+    },
+    {
+      "name": "Fourmi",
+      "sprite": "./french-insects_files/Fourmi.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Navets pourris",
+      "price": "80"
+    },
+    {
+      "name": "\n\t\t\t\t\tGuêpe\n\t\t\t\t",
+      "sprite": "./french-insects_files/Guêpe.png",
+      "frequency": "rare",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Arbres",
+      "price": "2500"
+    },
+    {
+      "name": "Ligie",
+      "sprite": "./french-insects_files/Ligie.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Plage (rochers)",
+      "price": "200"
+    },
+    {
+      "name": "Mille-pattes",
+      "sprite": "./french-insects_files/Mille-pattes.png",
+      "frequency": "Commun",
+      "months": "Septembre - juin",
+      "hours": "16h - 23h",
+      "place": "Rochers",
+      "price": "300"
+    },
+    {
+      "name": "Morpho bleu",
+      "sprite": "./french-insects_files/Morpho bleu.png",
+      "frequency": "rare",
+      "months": "Juin - septembre, décembre - mars",
+      "hours": "17h - 8h",
+      "place": "Ciel",
+      "price": "4000"
+    },
+    {
+      "name": "Mouche",
+      "sprite": "./french-insects_files/Mouche.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Navets pourris",
+      "price": "60"
+    },
+    {
+      "name": "Papillon de nuit",
+      "sprite": "./french-insects_files/Papillon de nuit.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "19h - 4h",
+      "place": "Lumières",
+      "price": "130"
+    },
+    {
+      "name": "Psyché",
+      "sprite": "./french-insects_files/Psyché.png",
+      "frequency": "rare",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Arbres",
+      "price": "600"
+    },
+    {
+      "name": "Punaise",
+      "sprite": "./french-insects_files/Punaise.png",
+      "frequency": "Commun",
+      "months": "Mars - octobre",
+      "hours": "Toute la journée",
+      "place": "Fleurs",
+      "price": "120"
+    },
+    {
+      "name": "Tarentule",
+      "sprite": "./french-insects_files/Tarentule.png",
+      "frequency": "très rare",
+      "months": "Novembre - avril",
+      "hours": "19h - 4h",
+      "place": "Sol",
+      "price": "8000"
+    },
+    {
+      "name": "Taupe-grillon",
+      "sprite": "./french-insects_files/Taupe-grillon.png",
+      "frequency": "Commun",
+      "months": "Novembre - mai",
+      "hours": "Toute la journée",
+      "place": "Sous la terre",
+      "price": "500"
+    },
+    {
+      "name": "Abeille naine",
+      "sprite": "./french-insects_files/Abeille naine.png",
+      "frequency": "Commun",
+      "months": "Mars - juillet",
+      "hours": "8h - 17h",
+      "place": "Ciel",
+      "price": "200"
+    },
+    {
+      "name": "Citrin",
+      "sprite": "./french-insects_files/Citrin.png",
+      "frequency": "Commun",
+      "months": "Mars - juin, septembre - octobre",
+      "hours": "4h - 19h",
+      "place": "Ciel",
+      "price": "160"
+    },
+    {
+      "name": "Cloporte",
+      "sprite": "./french-insects_files/Cloporte.png",
+      "frequency": "Commun",
+      "months": "Septembre - juin",
+      "hours": "23h - 16h",
+      "place": "Rochers",
+      "price": "250"
+    },
+    {
+      "name": "Coccinelle",
+      "sprite": "./french-insects_files/Coccinelle.png",
+      "frequency": "Commun",
+      "months": "Mars - juin, octobre",
+      "hours": "8h - 17h",
+      "place": "Fleurs",
+      "price": "200"
+    },
+    {
+      "name": "Escargot",
+      "sprite": "./french-insects_files/Escargot.png",
+      "frequency": "Commun",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Rochers (pluie)",
+      "price": "250"
+    },
+    {
+      "name": "Grand Planeur",
+      "sprite": "./french-insects_files/Grand Planeur.png",
+      "frequency": "Rare",
+      "months": "Toute l'année",
+      "hours": "8h - 19h",
+      "place": "Ciel",
+      "price": "1000"
+    },
+    {
+      "name": "Guêpe",
+      "sprite": "./french-insects_files/Guêpe.png",
+      "frequency": "Rare",
+      "months": "Toute l'année",
+      "hours": "Toute la journée",
+      "place": "Arbres",
+      "price": "2500"
+    },
+    {
+      "name": "Machaon",
+      "sprite": "./french-insects_files/Machaon.png",
+      "frequency": "Commun",
+      "months": "Mars - septembre",
+      "hours": "4h - 19h",
+      "place": "Ciel",
+      "price": "240"
+    },
+    {
+      "name": "Mante orchidée",
+      "sprite": "./french-insects_files/Mante orchidée.png",
+      "frequency": "Rare",
+      "months": "Mars - novembre",
+      "hours": "8h - 17h",
+      "place": "Fleurs blanches",
+      "price": "2400"
+    },
+    {
+      "name": "Mante religieuse",
+      "sprite": "./french-insects_files/Mante religieuse.png",
+      "frequency": "Commun",
+      "months": "Mars - novembre",
+      "hours": "8h - 17h",
+      "place": "Fleurs",
+      "price": "430"
+    },
+    {
+      "name": "Papilio bianor",
+      "sprite": "./french-insects_files/Papilio bianor.png",
+      "frequency": "Rare",
+      "months": "Mars - juin",
+      "hours": "4h - 19h",
+      "place": "Ciel",
+      "price": "2500"
+    },
+    {
+      "name": "Piéride de la rave",
+      "sprite": "./french-insects_files/Piéride de la rave.png",
+      "frequency": "Commun",
+      "months": "Septembre - juin",
+      "hours": "4h - 19h",
+      "place": "Ciel",
+      "price": "160"
+    },
+    {
+      "name": "Acrida cinerea",
+      "sprite": "./french-insects_files/Acrida cinerea.png",
+      "frequency": "Commun",
+      "months": "Avril - novembre",
+      "hours": "8h - 19h",
+      "place": "Sol",
+      "price": "200"
+    },
+    {
+      "name": "Agrias",
+      "sprite": "./french-insects_files/Agrias.png",
+      "frequency": "Rare",
+      "months": "Avril - septembre",
+      "hours": "8h - 17h",
+      "place": "Ciel",
+      "price": "3000"
+    },
+    {
+      "name": "Anax napolitain",
+      "sprite": "./french-insects_files/Anax napolitain.png",
+      "frequency": "Commun",
+      "months": "Avril - octobre",
+      "hours": "8h - 17h",
+      "place": "Ciel",
+      "price": "230"
+    },
+    {
+      "name": "Attacus Atlas",
+      "sprite": "./french-insects_files/Attacus Atlas.png",
+      "frequency": "Rare",
+      "months": "Avril - septembre",
+      "hours": "19h - 4h",
+      "place": "Arbres",
+      "price": "3000"
+    },
+    {
+      "name": "Bousier",
+      "sprite": "./french-insects_files/Bousier.png",
+      "frequency": "Rare",
+      "months": "Décembre - février",
+      "hours": "Toute la journée",
+      "place": "Boules de neige",
+      "price": "2500"
+    },
+    {
+      "name": "Bupreste",
+      "sprite": "./french-insects_files/Bupreste.png",
+      "frequency": "Commun",
+      "months": "Avril - août",
+      "hours": "Toute la journée",
+      "place": "Arbres",
+      "price": "2400"
+    },
+    {
+      "name": "Cétoine dorée",
+      "sprite": "./french-insects_files/Cétoine dorée.png",
+      "frequency": "Commun",
+      "months": "Juin - août",
+      "hours": "Toute la journée",
+      "place": "Arbres",
+      "price": "200"
+    },
+    {
+      "name": "Chrysiridia rhipheus",
+      "sprite": "./french-insects_files/Chrysiridia rhipheus.png",
+      "frequency": "Rare",
+      "months": "Avril - septembre",
+      "hours": "8h - 16h",
+      "place": "Ciel",
+      "price": "2500"
+    },
+    {
+      "name": "Cigale cercope",
+      "sprite": "./french-insects_files/Cigale cercope.png",
+      "frequency": "Commun",
+      "months": "Juillet - août",
+      "hours": "8h - 17h",
+      "place": "Arbres",
+      "price": "250"
+    },
+    {
+      "name": "Cigale cicadelle",
+      "sprite": "./french-insects_files/Cigale cicadelle.png",
+      "frequency": "Commun",
+      "months": "Août - septembre",
+      "hours": "8h - 17h",
+      "place": "Arbres",
+      "price": "400"
+    },
+    {
+      "name": "Cigale géante",
+      "sprite": "./french-insects_files/Cigale géante.png",
+      "frequency": "Commun",
+      "months": "Juillet - août",
+      "hours": "8h - 17h",
+      "place": "Arbres",
+      "price": "500"
+    },
+    {
+      "name": "Cigale higurashi",
+      "sprite": "./french-insects_files/Cigale higurashi.png",
+      "frequency": "Commun",
+      "months": "Juillet - août",
+      "hours": "4h - 8h, 16h - 19h",
+      "place": "Arbres",
+      "price": "?"
+    },
+    {
+      "name": "Cigale hyalessa",
+      "sprite": "./french-insects_files/Cigale hyalessa.png",
+      "frequency": "Commun",
+      "months": "Juillet - août",
+      "hours": "8h - 17h",
+      "place": "Arbres",
+      "price": "?"
+    },
+    {
+      "name": "Cordulégastre",
+      "sprite": "./french-insects_files/Cordulégastre.png",
+      "frequency": "Commun",
+      "months": "Mai - octobre",
+      "hours": "8h - 17h",
+      "place": "Ciel",
+      "price": "4500"
+    },
+    {
+      "name": "Criquet",
+      "sprite": "./french-insects_files/Criquet.png",
+      "frequency": "Commun",
+      "months": "Août - novembre",
+      "hours": "8h - 19h",
+      "place": "Sol",
+      "price": "400"
+    },
+    {
+      "name": "Criquet pèlerin",
+      "sprite": "./french-insects_files/Criquet pèlerin.png",
+      "frequency": "Commun",
+      "months": "Août - novembre",
+      "hours": "8h - 19h",
+      "place": "Sol",
+      "price": "600"
+    },
+    {
+      "name": "Demoiselle",
+      "sprite": "./french-insects_files/Demoiselle.png",
+      "frequency": "Commun",
+      "months": "Septembre - octobre",
+      "hours": "8h - 19h",
+      "place": "Ciel",
+      "price": "180"
+    },
+    {
+      "name": "Dytique",
+      "sprite": "./french-insects_files/Dytique.png",
+      "frequency": "Commun",
+      "months": "Mai - septembre",
+      "hours": "8h - 19h",
+      "place": "Surface de l'eau",
+      "price": "800"
+    },
+    {
+      "name": "Geotrupidae",
+      "sprite": "./french-insects_files/Geotrupidae.png",
+      "frequency": "Commun",
+      "months": "Juillet - septembre",
+      "hours": "Toute la journée",
+      "place": "Arbres",
+      "price": "300"
+    },
+    {
+      "name": "Grand papillon pourpre",
+      "sprite": "./french-insects_files/Grand papillon pourpre.png",
+      "frequency": "Commun",
+      "months": "Mai - août",
+      "hours": "4h - 19h",
+      "place": "Ciel",
+      "price": "3000"
+    },
+    {
+      "name": "Grillon des prés",
+      "sprite": "./french-insects_files/Grillon des prés.png",
+      "frequency": "Commun",
+      "months": "Septembre - novembre",
+      "hours": "17h - 8h",
+      "place": "Sol",
+      "price": "130"
+    },
+    {
+      "name": "Grillon du Midi",
+      "sprite": "./french-insects_files/Grillon du Midi.png",
+      "frequency": "Commun",
+      "months": "Septembre - octobre",
+      "hours": "17h - 8h",
+      "place": "Sol",
+      "price": "430"
+    },
+    {
+      "name": "Lucane cerf-volant",
+      "sprite": "./french-insects_files/Lucane cerf-volant.png",
+      "frequency": "Très rare",
+      "months": "Juillet - août",
+      "hours": "23h - 8h",
+      "place": "Arbres",
+      "price": "?"
+    },
+    {
+      "name": "Lucane copris irisé",
+      "sprite": "./french-insects_files/Lucane copris irisé.png",
+      "frequency": "Très rare",
+      "months": "Juin - septembre",
+      "hours": "19h - 8h",
+      "place": "Arbres",
+      "price": "6000"
+    },
+    {
+      "name": "Lucane cyclommatus",
+      "sprite": "./french-insects_files/Lucane cyclommatus.png",
+      "frequency": "Très rare",
+      "months": "Juillet - août",
+      "hours": "17h - 8h",
+      "place": "Palmiers",
+      "price": "?"
+    },
+    {
+      "name": "Lucane girafe",
+      "sprite": "./french-insects_files/Lucane girafe.png",
+      "frequency": "Très rare",
+      "months": "Juillet - août",
+      "hours": "17h - 8h",
+      "place": "Arbres",
+      "price": "?"
+    },
+    {
+      "name": "Lucane inclinatus",
+      "sprite": "./french-insects_files/Lucane inclinatus.png",
+      "frequency": "Rare",
+      "months": "Juillet - août",
+      "hours": "Toute la journée",
+      "place": "Arbres",
+      "price": "?"
+    },
+    {
+      "name": "Lucane lamprima",
+      "sprite": "./french-insects_files/Lucane lamprima.png",
+      "frequency": "Très rare",
+      "months": "Juillet - août",
+      "hours": "17h - 8h",
+      "place": "Palmiers",
+      "price": "?"
+    },
+    {
+      "name": "Lucane miyama",
+      "sprite": "./french-insects_files/Lucane miyama.png",
+      "frequency": "Rare",
+      "months": "Juillet - août",
+      "hours": "Toute la journée",
+      "place": "Arbres",
+      "price": "?"
+    },
+    {
+      "name": "Luciole",
+      "sprite": "./french-insects_files/Luciole.png",
+      "frequency": "Rare",
+      "months": "Juin",
+      "hours": "19h - 4h",
+      "place": "Près de l'eau",
+      "price": "2000"
+    },
+    {
+      "name": "Monarque",
+      "sprite": "./french-insects_files/Monarque.png",
+      "frequency": "Commun",
+      "months": "Septembre - novembre",
+      "hours": "4h - 17h",
+      "place": "Ciel",
+      "price": "140"
+    },
+    {
+      "name": "Mormolyce",
+      "sprite": "./french-insects_files/Mormolyce.png",
+      "frequency": "Commun",
+      "months": "Mai - juin, septembre - novembre",
+      "hours": "Toute la journée",
+      "place": "Souches d'arbres",
+      "price": "450"
+    },
+    {
+      "name": "Moustique",
+      "sprite": "./french-insects_files/Moustique.png",
+      "frequency": "Commun",
+      "months": "Juin - septembre",
+      "hours": "17h - 4h",
+      "place": "Ciel",
+      "price": "130"
+    },
+    {
+      "name": "Mue de cigale",
+      "sprite": "./french-insects_files/Mue de cigale.png",
+      "frequency": "Rare",
+      "months": "Juillet - août",
+      "hours": "Toute la journée",
+      "place": "Arbres",
+      "price": "?"
+    },
+    {
+      "name": "Papillon mouche bleue commune",
+      "sprite": "./french-insects_files/Papillon mouche bleue commune.png",
+      "frequency": "Commun",
+      "months": "Avril - août",
+      "hours": "4h - 19h",
+      "place": "Ciel",
+      "price": "300"
+    },
+    {
+      "name": "Patineur",
+      "sprite": "./french-insects_files/Patineur.png",
+      "frequency": "Commun",
+      "months": "Mai - septembre",
+      "hours": "8h - 19h",
+      "place": "Surface de l'eau",
+      "price": "130"
+    },
+    {
+      "name": "Phasme",
+      "sprite": "./french-insects_files/Phasme.png",
+      "frequency": "Commun",
+      "months": "Juillet - novembre",
+      "hours": "4h - 8h, 17h - 19h",
+      "place": "Arbres",
+      "price": "?"
+    },
+    {
+      "name": "Phyllie",
+      "sprite": "./french-insects_files/Phyllie.png",
+      "frequency": "Commun",
+      "months": "Juillet - septembre",
+      "hours": "Toute la journée",
+      "place": "Sol",
+      "price": "600"
+    },
+    {
+      "name": "Puce",
+      "sprite": "./french-insects_files/Puce.png",
+      "frequency": "Commun",
+      "months": "Avril - novembre",
+      "hours": "Toute la journée",
+      "place": "Villageois",
+      "price": "70"
+    },
+    {
+      "name": "Punaise d'eau géante",
+      "sprite": "./french-insects_files/Punaise d'eau géante.png",
+      "frequency": "Rare",
+      "months": "Avril - septembre",
+      "hours": "19h - 8h",
+      "place": "Surface de l'eau",
+      "price": "2000"
+    },
+    {
+      "name": "Rosalia batesi",
+      "sprite": "./french-insects_files/Rosalia batesi.png",
+      "frequency": "Rare",
+      "months": "Mai - juin",
+      "hours": "Toute la journée",
+      "place": "Souches d'arbres",
+      "price": "3000"
+    },
+    {
+      "name": "Sauterelle",
+      "sprite": "./french-insects_files/Sauterelle.png",
+      "frequency": "Commun",
+      "months": "Juillet - septembre",
+      "hours": "8h - 17h",
+      "place": "Sol",
+      "price": "160"
+    },
+    {
+      "name": "Scarabée",
+      "sprite": "./french-insects_files/Scarabée.png",
+      "frequency": "Très rare",
+      "months": "Juillet - août",
+      "hours": "23h - 8h",
+      "place": "Arbres",
+      "price": "?"
+    },
+    {
+      "name": "Scarabée Atlas",
+      "sprite": "./french-insects_files/Scarabée Atlas.png",
+      "frequency": "Très rare",
+      "months": "Juillet - août",
+      "hours": "17h - 8h",
+      "place": "Palmiers",
+      "price": "?"
+    },
+    {
+      "name": "Scarabée bleu",
+      "sprite": "./french-insects_files/Scarabée bleu.png",
+      "frequency": "Rare",
+      "months": "Juillet - août",
+      "hours": "Toute la journée",
+      "place": "Arbres",
+      "price": "?"
+    },
+    {
+      "name": "Scarabée éléphant",
+      "sprite": "./french-insects_files/Scarabée éléphant.png",
+      "frequency": "Très rare",
+      "months": "Juillet - août",
+      "hours": "17h - 8h",
+      "place": "Palmiers",
+      "price": "?"
+    },
+    {
+      "name": "Scarabée Goliath",
+      "sprite": "./french-insects_files/Scarabée Goliath.png",
+      "frequency": "Très rare",
+      "months": "Juin - septembre",
+      "hours": "17h - 8h",
+      "place": "Palmiers",
+      "price": "?"
+    },
+    {
+      "name": "Scarabée Hercule",
+      "sprite": "./french-insects_files/Scarabée Hercule.png",
+      "frequency": "Très rare",
+      "months": "Juillet - août",
+      "hours": "17h - 8h",
+      "place": "Palmiers",
+      "price": "?"
+    },
+    {
+      "name": "Scarabée kabuto",
+      "sprite": "./french-insects_files/Scarabée kabuto.png",
+      "frequency": "Très rare",
+      "months": "Juillet - août",
+      "hours": "17h - 8h",
+      "place": "Arbres",
+      "price": "1350"
+    },
+    {
+      "name": "Scorpion",
+      "sprite": "./french-insects_files/Scorpion.png",
+      "frequency": "Très rare",
+      "months": "Mai - octobre",
+      "hours": "19h - 4h",
+      "place": "Sol",
+      "price": "8000"
+    },
+    {
+      "name": "Sympetrum",
+      "sprite": "./french-insects_files/Sympetrum.png",
+      "frequency": "Commun",
+      "months": "Novembre - février",
+      "hours": "Toute la journée",
+      "place": "Ciel",
+      "price": "500"
+    },
+    {
+      "name": "Troides alexandrae",
+      "sprite": "./french-insects_files/Troides alexandrae.png",
+      "frequency": "Rare",
+      "months": "Mai - septembre",
+      "hours": "8h - 16h",
+      "place": "Ciel",
+      "price": "4000"
+    },
+    {
+      "name": "Troides Brookiana",
+      "sprite": "./french-insects_files/Troides Brookiana.png",
+      "frequency": "Rare",
+      "months": "Avril - septembre, décembre - février",
+      "hours": "8h - 17h",
+      "place": "Ciel",
+      "price": "2500"
+    }
+  ]
+}

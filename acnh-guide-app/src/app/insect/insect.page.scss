@@ -1,0 +1,90 @@
+#icon-container {
+  background-image: url('../../assets/global/img/nook-pattern-hd.png');
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-size: 650px;
+}
+#icon-container img {
+  transform: scale(1.5);
+}
+#info-container {
+  box-shadow: 0 -5px 5px -5px #333;
+}
+#name-text {
+  width: 100%;
+  padding-top: 20px;
+  font-size: x-large;
+}
+#calendar-grid {
+  border: solid var(--ion-color-dark) 1px;
+}
+.calendar-available {
+  background-color: #9eeb9e;
+}
+.calendar-today {
+  border: solid var(--ion-color-danger) 2px;
+}
+#time-grid {
+  padding: 0px;
+}
+#time-grid .top-row {
+  border-bottom: solid var(--ion-color-dark) 1px;
+  border-top: solid var(--ion-color-dark) 1px;
+}
+#time-grid ion-row {
+  padding: 0px;
+}
+#time-grid ion-col{
+  padding: 0px;
+}
+#time-grid .top-row ion-col {
+  border-left: solid var(--ion-color-dark) 1px;
+  padding: 0px;
+  height: 10px;
+}
+#time-grid .top-row .last-col {
+  border-right: solid var(--ion-color-dark) 1px;
+}
+#time-grid .bottom-row ion-col {
+  padding: 0px;
+  height: 5px;
+}
+#time-grid .bottom-row .left-side {
+  border-left: solid var(--ion-color-dark) 1px;
+}
+#time-grid .bottom-row .right-side {
+  border-right: solid var(--ion-color-dark) 1px;
+}
+#time-grid {
+  font-size: smaller;
+}
+#time-grid .col-align-left {
+  align-content: left !important;
+  text-align: left !important;
+  justify-content: left !important;
+}
+#time-grid .col-align-right {
+  align-content: right !important;
+  text-align: right !important;
+  justify-content: right !important;
+}
+#time-grid .time-bar {
+  position: relative;
+  left: 50%;
+  height: 100%;
+  border-left: solid var(--ion-color-danger) 2px;
+}
+#time-grid .time-available {
+  background-color: #9eeb9e;
+}
+#details-grid ion-row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#details-grid .bottom-info {
+  border-bottom: solid var(--ion-color-medium) 1px;
+}
+#details-grid .light-text {
+  color: var(--ion-color-medium);
+}

@@ -1,17 +1,69 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Insectes
     </ion-title>
+    <ion-button slot="end" fill="clear" (click)="onClickMore()" color="primary">
+      <ion-icon slot="icon-only" name="information-circle-outline"></ion-icon>
+    </ion-button>
   </ion-toolbar>
+  <ion-item>
+    <ion-input
+      [(ngModel)]="userInput"
+      placeholder="Rechercher"
+      (ionInput)="onUserInput($event)">
+    </ion-input>
+  </ion-item>
+  <ion-grid id="filter-grid" class="center-content">
+    <ion-row class="filter-row center-content">
+      <ion-col>
+        <ion-button fill="clear" [color]="availability != 0 ? 'primary' : 'dark'" (click)="onClickAvailability($event)">
+          <ion-icon slot="icon-only" [name]="availability != 0 ? 'calendar' : 'calendar-outline'"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button fill="clear" [color]="frequency != -1 ? 'primary' : 'dark'" (click)="onClickFrequency($event)">
+          <ion-icon slot="icon-only" [name]="frequency != -1 ? 'star' : 'star-outline'"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button fill="clear" [color]="place != -1 ? 'primary' : 'dark'" (click)="onClickPlace($event)">
+          <ion-icon slot="icon-only" [name]="place != -1 ? 'leaf' : 'leaf-outline'"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button fill="clear" [color]="rain == true ? 'primary' : 'dark'" (click)="onClickRain($event)">
+          <ion-icon slot="icon-only" [name]="rain == true ? 'rainy' : 'rainy-outline'"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button fill="clear" color="danger" (click)="onClickRemoveFilters()">
+          <ion-icon slot="icon-only" name="close"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-list>
+    <div *ngFor="let insect of displayedInsects">
+      <ion-item (click)="onClickItem(insect)">
+        <ion-avatar [ngClass]="getAvatarClass(insect)"
+          slot="start">
+          <img [src]="getSpritePath(insect)">
+        </ion-avatar>
+        <ion-label>
+          {{ insect.name }}
+        </ion-label>
+        <ion-badge *ngIf="isFirstMonth(insect)" slot="end" color="primary">
+          Nouveau
+        </ion-badge>
+        <ion-badge *ngIf="isLastMonth(insect)" slot="end" color="danger">
+          Dernier mois
+        </ion-badge>
+      </ion-item>
+    </div>
+  </ion-list>
 </ion-content>

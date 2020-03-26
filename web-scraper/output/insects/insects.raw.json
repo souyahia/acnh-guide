@@ -46,7 +46,7 @@
       "price": "1500"
     },
     {
-      "name": "\n\t\t\t\t\t\t\tEscargot\n\t\t\t\t\t\t",
+      "name": "\t\t\t\t\t\tEscargot\n\t\t\t\t\t\t",
       "sprite": "./french-insects_files/Escargot.png",
       "frequency": "Commun",
       "months": "Toute l'année",
@@ -64,7 +64,7 @@
       "price": "80"
     },
     {
-      "name": "\n\t\t\t\t\tGuêpe\n\t\t\t\t",
+      "name": "\t\t\t\tGuêpe\n\t\t\t\t",
       "sprite": "./french-insects_files/Guêpe.png",
       "frequency": "rare",
       "months": "Toute l'année",

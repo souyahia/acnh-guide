@@ -1,0 +1,146 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Détails</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="icon-container" class="center-content">
+    <img [src]="getSpritePath()">
+  </div>
+  <div id="info-container">
+    <ion-title id="name-text" class="center-content">
+      {{ fish.name }}
+    </ion-title>
+    <ion-grid id="date-grid" class="center-content">
+      <ion-row>
+        <ion-col>
+
+          <ion-grid id="calendar-grid">
+            <ion-row>
+              <ion-col size="3">
+                <div [ngClass]="getCalendarClass(0)">
+                  Janv.
+                </div>
+              </ion-col>
+              <ion-col size="3">
+                <div [ngClass]="getCalendarClass(1)">
+                  Févr.
+                </div>
+              </ion-col>
+              <ion-col size="3">
+                <div [ngClass]="getCalendarClass(2)">
+                  Mars
+                </div>
+              </ion-col>
+              <ion-col size="3">
+                <div [ngClass]="getCalendarClass(3)">
+                  Avril
+                </div>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="3">
+                <div [ngClass]="getCalendarClass(4)">
+                  Mai
+                </div>
+              </ion-col>
+              <ion-col size="3">
+                <div [ngClass]="getCalendarClass(5)">
+                  Juin
+                </div>
+              </ion-col>
+              <ion-col size="3">
+                <div [ngClass]="getCalendarClass(6)">
+                  Juill.
+                </div>
+              </ion-col>
+              <ion-col size="3">
+                <div [ngClass]="getCalendarClass(7)">
+                  Août
+                </div>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="3">
+                <div [ngClass]="getCalendarClass(8)">
+                  Sept.
+                </div>
+              </ion-col>
+              <ion-col size="3">
+                <div [ngClass]="getCalendarClass(9)">
+                  Oct.
+                </div>
+              </ion-col>
+              <ion-col size="3">
+                <div [ngClass]="getCalendarClass(10)">
+                  Nov.
+                </div>
+              </ion-col>
+              <ion-col size="3">
+                <div [ngClass]="getCalendarClass(11)">
+                  Déc.
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+          
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          
+          <ion-grid id="time-grid">
+            <ion-row class="top-row">
+              <ng-container *ngFor="let i of HOURS_INDEX">
+                <ion-col [ngClass]="getTopRowClass(i)">
+                  <div *ngIf="isTimeBarDisplayed(i)" class="time-bar"></div>
+                </ion-col>
+              </ng-container>
+            </ion-row>
+            <ion-row class="bottom-row">
+              <ng-container *ngFor="let i of HOURS_INDEX">
+                <ion-col [ngClass]="getBottomRowClass(i)">
+                  <div *ngIf="isTimeBarDisplayed(i)" class="time-bar"></div>
+                </ion-col>
+              </ng-container>
+            </ion-row>
+            <ion-row>
+              <ion-col size="1.5" class="col-align-left">00h</ion-col>
+              <ion-col size="3" class="center-content">6h</ion-col>
+              <ion-col size="3" class="center-content">12h</ion-col>
+              <ion-col size="3" class="center-content">18h</ion-col>
+              <ion-col size="1.5" class="col-align-right">00h</ion-col>
+            </ion-row>
+          </ion-grid>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid id="details-grid">
+      <ion-row class="bottom-info">
+        <ion-col class="light-text" size="3">Rareté</ion-col>
+        <ion-col>{{ this.getFrequency() }}</ion-col>
+      </ion-row>
+      <ion-row class="bottom-info">
+        <ion-col class="light-text" size="3">Localisation</ion-col>
+        <ion-col>{{ this.getPlace() }}</ion-col>
+      </ion-row>
+      <ion-row class="bottom-info">
+        <ion-col class="light-text" size="3">Temps</ion-col>
+        <ion-col>{{ this.getRain() }}</ion-col>
+      </ion-row>
+      <ion-row class="bottom-info">
+        <ion-col class="light-text" size="3">Silhouette</ion-col>
+        <ion-col>{{ this.getSize() }}</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="light-text" size="3">Aileron</ion-col>
+        <ion-col>{{ this.getFin() }}</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

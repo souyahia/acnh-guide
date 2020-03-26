@@ -1,3 +1,17 @@
-ion-content ion-toolbar {
-  --background: translucent;
+#filter-grid {
+  background-color: white;
+  width: 100%
+}
+.item-avatar {
+  background-image: url('../../assets/global/img/nook-pattern-hd.png');
+  background-size: 150px;
+}
+.common {
+  border: solid white 2px;
+}
+.rare {
+  border: solid #ffda07 2px;
+}
+.very-rare {
+  border: solid #ff9307 2px;
 }

@@ -49,11 +49,11 @@ function convertMonths(fish) {
   if (fish.months == 'Toute l\'année') {
     for (let i=0; i<12; i++) { months[i] = true; }
   } else {
-    let reg = new RegExp('([A-zÀ-ú]+) - ([A-zÀ-ú]+)', 'i');
+    let reg = new RegExp('^([A-zÀ-ú]+) - ([A-zÀ-ú]+)$', 'i');
     res = fish.months.match(reg);
     if (res != null) { applyMonths(months, res[1], res[2]); }
     else {
-      reg = new RegExp('([A-zÀ-ú]+) - ([A-zÀ-ú]+), ([A-zÀ-ú]+) - ([A-zÀ-ú]+)', 'i');
+      reg = new RegExp('^([A-zÀ-ú]+) - ([A-zÀ-ú]+), ([A-zÀ-ú]+) - ([A-zÀ-ú]+)$', 'i');
       res = fish.months.match(reg);
       if (res != null) {
         applyMonths(months, res[1], res[2]);
@@ -87,11 +87,11 @@ function convertHours(fish) {
   if (fish.hours == 'Toute la journée') {
     for (let i=0; i<24; i++) { hours[i] = true; }
   } else {
-    let reg = new RegExp('(\\d+)h - (\\d+)h', 'i');
+    let reg = new RegExp('^(\\d+)h - (\\d+)h$', 'i');
     res = fish.hours.match(reg);
     if (res != null) { applyHours(hours, res[1], res[2]); }
     else {
-      reg = new RegExp('(\\d+)h - (\\d+)h, (\\d+)h - (\\d+)h', 'i');
+      reg = new RegExp('^(\\d+)h - (\\d+)h, (\\d+)h - (\\d+)h$', 'i');
       res = fish.hours.match(reg);
       if (res != null) {
         applyHours(hours, res[1], res[2]);
